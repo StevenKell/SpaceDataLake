@@ -1,4 +1,4 @@
-param location string = 'westeurope'
+param location string = 'eastus'
 param storageAccountName string = 'space${uniqueString(resourceGroup().id)}'
 param appServiceAppName string = 'space${uniqueString(resourceGroup().id)}'
 
